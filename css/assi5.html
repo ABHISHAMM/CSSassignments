@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style> 
-div {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 10s;
-}
+    <title>CSS ASSIGNMENT 5</title>
+    <style> 
+        div 
+        {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            -webkit-animation-name: example; 
+            -webkit-animation-duration: 50s;
+            -webkit-animation-iteration-count: infinite;
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:blue; left:200px; top:0px;}
-    
-}
+            animation-name: example;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
 
-/* Standard syntax */
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:blue; left:200px; top:0px;}
-    
-}
-</style>
+        @-webkit-keyframes example 
+        {
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:blue; left:1150px; top:0px;}
+            
+        }
+
+        /* Standard syntax */
+        @keyframes example 
+        {
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:blue; left:1150px; top:0px;}
+            
+        }
+    </style>
 </head>
 <body>
-
-
-<div></div>
+    <div></div>
 
 </body>
 </html>
